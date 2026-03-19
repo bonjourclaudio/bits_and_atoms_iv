@@ -2,8 +2,8 @@ import Foundation
 
 // Task 1b
 struct Course: Identifiable {
+    let id: UUID = UUID()
     
-    let id: Int
     let name: String
     let description: String
     let credits: Int
@@ -15,7 +15,6 @@ struct Course: Identifiable {
     let maxStudents: Int
 
     init(
-        id: Int,
         name: String,
         description: String,
         credits: Int,
@@ -26,7 +25,6 @@ struct Course: Identifiable {
         instructor: String,
         maxStudents: Int
     ) {
-        self.id = id
         self.name = name
         self.description = description
         self.credits = credits
@@ -42,7 +40,6 @@ struct Course: Identifiable {
 // Task 1a
 let courses = [
     Course(
-        id: 1,
         name: "Bits & Atoms I",
         description: "Introduction to Programming",
         credits: 3, semester: "Fall",
@@ -53,7 +50,6 @@ let courses = [
         maxStudents: 20
     ),
     Course(
-        id: 2,
         name: "Mobile User Interface",
         description: "UI Design",
         credits: 6,
@@ -65,7 +61,6 @@ let courses = [
         maxStudents: 20
     ),
     Course(
-        id: 3,
         name: "Creative Coding",
         description: "Programming",
         credits: 3,
@@ -78,7 +73,6 @@ let courses = [
     ),
     // 1a
     Course(
-        id: 4,
         name: "Guete Kurs",
         description: "Sachemache",
         credits: 1,
@@ -91,7 +85,6 @@ let courses = [
     ),
     // 1a
     Course(
-        id: 5,
         name: "Krasse Kurs",
         description: "Krassisachemache",
         credits: 9999,
