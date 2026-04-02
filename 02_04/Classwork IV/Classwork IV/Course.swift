@@ -21,6 +21,8 @@ struct Course: Identifiable {
     let instructor: String
     let maxStudents: Int
     // Task 1b
+    var isBookmarked: Bool = false
+    var isBooked: Bool = false
 }
 
 let courses = [
