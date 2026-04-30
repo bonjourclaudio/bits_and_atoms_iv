@@ -18,7 +18,8 @@ struct ContentView: View {
             date: "2026-05-01",
             time: "18:00",
             price: 19.99,
-            color: Color("MehrspurEventColor")
+            color: Color("MehrspurEventColor"),
+            preferredSize: .medium
         )
         
         WidgetView(widgetEvent: crazyParty)
@@ -32,7 +33,8 @@ struct ContentView: View {
             date: "2030-05-01",
             time: "02:00",
             price: 999.99,
-            color: Color(.green)
+            color: Color(.green),
+            preferredSize: .large
         )
         
         WidgetView(widgetEvent: cooleParty)

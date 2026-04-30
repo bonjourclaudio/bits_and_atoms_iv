@@ -23,7 +23,7 @@ struct WidgetEvent : Identifiable {
     let time : String // 22:00
     let price : Float // 7
     let color : Color
-    let preferredSize : WidgetSize = . medium
+    let preferredSize : WidgetSize // .medium / .large
 }
 
 // Init Widget - Placeholder
@@ -35,7 +35,8 @@ let staticWidgetEvent: WidgetEvent = WidgetEvent(
     date: "Saturday 18 June",
     time: "22:00",
     price: 7.0,
-    color: .blue
+    color: .blue,
+    preferredSize: .medium
 )
 
 struct WidgetView: View {
@@ -76,7 +77,7 @@ struct WidgetView: View {
                         .frame(maxWidth: .infinity, alignment: .topLeading)
                     }
                     .padding(0)
-                    .frame(maxWidth: .infinity, minHeight: 132, maxHeight: 132, alignment: .leading)
+                    .frame(maxWidth: .infinity, minHeight: widgetEvent.preferredSize == WidgetSize.medium ? 132 : 386, maxHeight: widgetEvent.preferredSize == WidgetSize.medium ? 132 : 386, alignment: .leading)
                 }
                 .padding(.horizontal, 18)
                 .padding(.vertical, 16)
@@ -95,7 +96,7 @@ struct WidgetView: View {
                     Image(widgetEvent.backgroundFileTitle)
                     .resizable()
                     .aspectRatio(contentMode: .fill)
-                    .frame(width: 350, height: 164)
+                    .frame(width: 350, height: widgetEvent.preferredSize == WidgetSize.medium ? 164 : 386)
                     .clipped()
                 )
                 .cornerRadius(30)
@@ -113,7 +114,10 @@ struct WidgetView: View {
                 
             }
             .padding(0)
-            .frame(width: 350, height: 248, alignment: .top)
+            .frame(
+                width: 350,
+                height: widgetEvent.preferredSize == WidgetSize.medium ? 234 : nil,
+                alignment: .top)
         }
         .padding()
     }
