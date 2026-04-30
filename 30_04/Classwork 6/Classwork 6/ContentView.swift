@@ -28,7 +28,7 @@ struct ContentView: View {
             title: "so cool",
             subtitle: "mega cool",
             widgetLabel: "cooool",
-            backgroundFileTitle: "mehrspur-poster",
+            backgroundFileTitle: "shrekkkk",
             date: "2030-05-01",
             time: "02:00",
             price: 999.99,

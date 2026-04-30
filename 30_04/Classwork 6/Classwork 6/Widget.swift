@@ -13,7 +13,6 @@ enum WidgetSize {
     case medium
 }
 
-// TODO: Implement to use in hardcoded Mehrspur-Widget
 struct WidgetEvent : Identifiable {
     let id = UUID ()
     let title : String // Semester End Party
@@ -27,6 +26,7 @@ struct WidgetEvent : Identifiable {
     let preferredSize : WidgetSize = . medium
 }
 
+// Init Widget - Placeholder
 let staticWidgetEvent: WidgetEvent = WidgetEvent(
     title: "Placeholder",
     subtitle: "Placeholder",
