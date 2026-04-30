@@ -28,9 +28,9 @@ struct WidgetEvent : Identifiable {
 }
 
 let staticWidgetEvent: WidgetEvent = WidgetEvent(
-    title: "Semester End Party",
-    subtitle: "Output 22",
-    widgetLabel: "Mehrspur",
+    title: "Placeholder",
+    subtitle: "Placeholder",
+    widgetLabel: "Placeholder",
     backgroundFileTitle: "mehrspur-poster",
     date: "Saturday 18 June",
     time: "22:00",
@@ -102,7 +102,7 @@ struct WidgetView: View {
                 
                 
                 // 2ND ROW - MEHRSPUR
-                Text("Mehrspur")
+                Text(widgetEvent.widgetLabel)
                   .font(
                     Font.custom("SF Pro Display", size: 14)
                       .weight(.semibold)
