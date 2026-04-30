@@ -7,10 +7,10 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct CourseDetailView: View {
     
     // Task 1a
-    @State var course = courses[0]
+    @State var course: Course
     
     var body: some View {
         VStack {
@@ -97,5 +97,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    CourseDetailView(course: courses[0])
 }

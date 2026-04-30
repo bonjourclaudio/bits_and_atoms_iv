@@ -6,25 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		AA4AE2F12F7EAA4800589ED2 /* CoursesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4AE2F02F7EAA4800589ED2 /* CoursesList.swift */; };
-		C60EA3522F748F3A00B28602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C60EA34E2F748F3A00B28602 /* Assets.xcassets */; };
-		C60EA3532F748F3A00B28602 /* Classwork_IVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60EA34F2F748F3A00B28602 /* Classwork_IVApp.swift */; };
-		C60EA3542F748F3A00B28602 /* CourseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60EA3502F748F3A00B28602 /* CourseDetailView.swift */; };
-		C60EA35C2F7533A200B28602 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60EA35B2F7533A200B28602 /* Course.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		AA4AE2F02F7EAA4800589ED2 /* CoursesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesList.swift; sourceTree = "<group>"; };
-		C60EA3402F748ED600B28602 /* Classwork IV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Classwork IV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C60EA34E2F748F3A00B28602 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C60EA34F2F748F3A00B28602 /* Classwork_IVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classwork_IVApp.swift; sourceTree = "<group>"; };
-		C60EA3502F748F3A00B28602 /* CourseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailView.swift; sourceTree = "<group>"; };
-		C60EA35B2F7533A200B28602 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		AA444AE22FA374090066E836 /* Classwork 6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Classwork 6.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AA444AE42FA374090066E836 /* Classwork 6 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Classwork 6";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
-		C60EA33D2F748ED600B28602 /* Frameworks */ = {
+		AA444ADF2FA374090066E836 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,117 +29,103 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C60EA3372F748ED600B28602 = {
+		AA444AD92FA374090066E836 = {
 			isa = PBXGroup;
 			children = (
-				C60EA3512F748F3A00B28602 /* Classwork IV */,
-				C60EA3412F748ED600B28602 /* Products */,
+				AA444AE42FA374090066E836 /* Classwork 6 */,
+				AA444AE32FA374090066E836 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C60EA3412F748ED600B28602 /* Products */ = {
+		AA444AE32FA374090066E836 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C60EA3402F748ED600B28602 /* Classwork IV.app */,
+				AA444AE22FA374090066E836 /* Classwork 6.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		C60EA3512F748F3A00B28602 /* Classwork IV */ = {
-			isa = PBXGroup;
-			children = (
-				C60EA34E2F748F3A00B28602 /* Assets.xcassets */,
-				C60EA34F2F748F3A00B28602 /* Classwork_IVApp.swift */,
-				C60EA3502F748F3A00B28602 /* CourseDetailView.swift */,
-				C60EA35B2F7533A200B28602 /* Course.swift */,
-				AA4AE2F02F7EAA4800589ED2 /* CoursesList.swift */,
-			);
-			path = "Classwork IV";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C60EA33F2F748ED600B28602 /* Classwork IV */ = {
+		AA444AE12FA374090066E836 /* Classwork 6 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C60EA34B2F748ED800B28602 /* Build configuration list for PBXNativeTarget "Classwork IV" */;
+			buildConfigurationList = AA444AED2FA3740A0066E836 /* Build configuration list for PBXNativeTarget "Classwork 6" */;
 			buildPhases = (
-				C60EA33C2F748ED600B28602 /* Sources */,
-				C60EA33D2F748ED600B28602 /* Frameworks */,
-				C60EA33E2F748ED600B28602 /* Resources */,
+				AA444ADE2FA374090066E836 /* Sources */,
+				AA444ADF2FA374090066E836 /* Frameworks */,
+				AA444AE02FA374090066E836 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Classwork IV";
+			fileSystemSynchronizedGroups = (
+				AA444AE42FA374090066E836 /* Classwork 6 */,
+			);
+			name = "Classwork 6";
 			packageProductDependencies = (
 			);
-			productName = "Classwork IV";
-			productReference = C60EA3402F748ED600B28602 /* Classwork IV.app */;
+			productName = "Classwork 6";
+			productReference = AA444AE22FA374090066E836 /* Classwork 6.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C60EA3382F748ED600B28602 /* Project object */ = {
+		AA444ADA2FA374090066E836 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1640;
-				LastUpgradeCheck = 1640;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
 				TargetAttributes = {
-					C60EA33F2F748ED600B28602 = {
-						CreatedOnToolsVersion = 16.4;
+					AA444AE12FA374090066E836 = {
+						CreatedOnToolsVersion = 26.4.1;
 					};
 				};
 			};
-			buildConfigurationList = C60EA33B2F748ED600B28602 /* Build configuration list for PBXProject "Classwork IV" */;
+			buildConfigurationList = AA444ADD2FA374090066E836 /* Build configuration list for PBXProject "Classwork 6" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = C60EA3372F748ED600B28602;
+			mainGroup = AA444AD92FA374090066E836;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = C60EA3412F748ED600B28602 /* Products */;
+			productRefGroup = AA444AE32FA374090066E836 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C60EA33F2F748ED600B28602 /* Classwork IV */,
+				AA444AE12FA374090066E836 /* Classwork 6 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C60EA33E2F748ED600B28602 /* Resources */ = {
+		AA444AE02FA374090066E836 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C60EA3522F748F3A00B28602 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C60EA33C2F748ED600B28602 /* Sources */ = {
+		AA444ADE2FA374090066E836 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA4AE2F12F7EAA4800589ED2 /* CoursesList.swift in Sources */,
-				C60EA35C2F7533A200B28602 /* Course.swift in Sources */,
-				C60EA3532F748F3A00B28602 /* Classwork_IVApp.swift in Sources */,
-				C60EA3542F748F3A00B28602 /* CourseDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C60EA3492F748ED800B28602 /* Debug */ = {
+		AA444AEB2FA3740A0066E836 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -196,7 +177,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -207,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		C60EA34A2F748ED800B28602 /* Release */ = {
+		AA444AEC2FA3740A0066E836 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -253,7 +234,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -263,7 +244,7 @@
 			};
 			name = Release;
 		};
-		C60EA34C2F748ED800B28602 /* Debug */ = {
+		AA444AEE2FA3740A0066E836 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -282,15 +263,19 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ch.zhdk.interactiondesign.Classwork-IV";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.claudioweckherlin.Classwork-6";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		C60EA34D2F748ED800B28602 /* Release */ = {
+		AA444AEF2FA3740A0066E836 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -309,9 +294,13 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ch.zhdk.interactiondesign.Classwork-IV";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.claudioweckherlin.Classwork-6";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -320,25 +309,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C60EA33B2F748ED600B28602 /* Build configuration list for PBXProject "Classwork IV" */ = {
+		AA444ADD2FA374090066E836 /* Build configuration list for PBXProject "Classwork 6" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C60EA3492F748ED800B28602 /* Debug */,
-				C60EA34A2F748ED800B28602 /* Release */,
+				AA444AEB2FA3740A0066E836 /* Debug */,
+				AA444AEC2FA3740A0066E836 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C60EA34B2F748ED800B28602 /* Build configuration list for PBXNativeTarget "Classwork IV" */ = {
+		AA444AED2FA3740A0066E836 /* Build configuration list for PBXNativeTarget "Classwork 6" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C60EA34C2F748ED800B28602 /* Debug */,
-				C60EA34D2F748ED800B28602 /* Release */,
+				AA444AEE2FA3740A0066E836 /* Debug */,
+				AA444AEF2FA3740A0066E836 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C60EA3382F748ED600B28602 /* Project object */;
+	rootObject = AA444ADA2FA374090066E836 /* Project object */;
 }
