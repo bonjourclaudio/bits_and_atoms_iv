@@ -28,7 +28,7 @@ struct ContentView: View {
         let cooleParty = WidgetEvent(
             title: "so cool",
             subtitle: "mega cool",
-            widgetLabel: "cooool",
+            widgetLabel: "woieghiowugoiwhioghwegoiew",
             backgroundFileTitle: "shrekkkk",
             date: "2030-05-01",
             time: "02:00",
@@ -38,6 +38,7 @@ struct ContentView: View {
         )
         
         WidgetView(widgetEvent: cooleParty)
+
         
     }
 }
